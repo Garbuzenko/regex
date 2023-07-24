@@ -1,3 +1,5 @@
-import moment from 'moment';
+import Validator from './basic';
 
-console.log(moment.now());
+console.log('app worked');
+
+console.log(Validator.validateUsername('aBc123-456xYz'));
